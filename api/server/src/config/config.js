@@ -6,7 +6,7 @@ module.exports = {
         username: process.env.DB_USER,
         password: process.env.DB_PASS,
         host: process.env.DB_HOST,
-        dialect: 'postgres'
+        dialect: process.env.DB_DIALECT
     },
 
     test: {
@@ -14,7 +14,7 @@ module.exports = {
         username: process.env.DB_USER,
         password: process.env.DB_PASS,
         host: process.env.DB_HOST,
-        dialect: 'postgres'
+        dialect: process.env.DB_DIALECT
     },
 
     production: {
@@ -22,6 +22,6 @@ module.exports = {
         username: process.env.DB_USER,
         password: process.env.DB_PASS,
         host: process.env.DB_HOST,
-        dialect: 'postgres'
+        dialect: process.env.DB_DIALECT
     }
 };
