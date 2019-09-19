@@ -1,0 +1,19 @@
+{
+  "name": "sequelize-postgres",
+  "version": "1.0.0",
+  "description": "It contains simple CRUD API written in node with express, sequelize ORM and PostgreSQL as DB ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kman4you/node-sequlize-postgres.git"
+  },
+  "author": "khubaib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kman4you/node-sequlize-postgres/issues"
+  },
+  "homepage": "https://github.com/kman4you/node-sequlize-postgres#readme"
+}
